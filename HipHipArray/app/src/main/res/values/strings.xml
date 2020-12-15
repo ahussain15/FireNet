@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Hip Hip Array</string>
+    <string name="name_empty">What is your name?</string>
+    <string name="name_enter">Enter</string>
+    <string name="name_field">Your name is...</string>
+    <string name="hello_press">Greet for Me!</string>
+    <string name="hello_empty">Do you want to say hi?</string>
+    <string-array name="hellos">
+        <item>Hello!</item>
+        <item>Hola!</item>
+        <item>Bonjour!</item>
+        <item>Ni hao!</item>
+    </string-array>
+    <string-array name="name_color">
+        <item>red</item>
+        <item>blue</item>
+        <item>green</item>
+    </string-array>
+    <string-array name="color_texts">
+        <item>That\'s my favorite color!</item>
+        <item>Oh noes, my little bro hacked my app!</item>
+        <item>Save the Earth!</item>
+    </string-array>
+</resources>

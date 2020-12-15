@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">String Maze</string>
+    <string name="directions">Please enter dimensions (3 to 20 for width and 3 to 10 for height) for the maze. </string>
+    <string name="directions2">Start at the percent sign. Navigate to the dollar sign.</string>
+    <string name="congrats">Congratulations! You solved the maze! Start a new maze if you would like.</string>
+    <string name="width">Enter Width</string>
+    <string name="height">Enter Height</string>
+    <string name="generate">New Maze</string>
+    <string name="up">^</string>
+    <string name="down">v</string>
+    <string name="left">&lt;</string>
+    <string name="right">&gt;</string>
+    <string name="invalid">Invalid input.</string>
+    <string name="exception">Please enter the values.</string>
+</resources>

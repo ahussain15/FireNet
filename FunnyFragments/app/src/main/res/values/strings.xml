@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Funny Fragments</string>
+    <string name="y">Yes</string>
+    <string name="n">No</string>
+    <string name="q">Do you want to hear a joke?</string>
+    <string name="happy">:‑D</string>
+    <string name="sad">:\'‑(</string>
+    <string-array name="joke">
+        <item>Knock Knock</item>
+        <item>Enter</item>
+        <item>Who\'s there?</item>
+        <item> who?</item>
+        <item>I like your sense of humor!</item>
+    </string-array>
+</resources>

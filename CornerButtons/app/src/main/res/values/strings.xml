@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Corner Buttons</string>
+    <string name="push">Push Button</string>
+    <string name="n_b">No Banana!</string>
+    <string name="g_ban">Got Banana!</string>
+    <string name="r_ban">Rate Banana!</string>
+    <string name="w_ban">But You Don\'t Have A Banana!</string>
+</resources>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Button Fun</string>
+    <string name="greeting">Click a button, any button!</string>
+    <string name="increase">Increase</string>
+    <string name="decrease">Decrease</string>
+    <string name="color_change">Guess</string>
+    <string name="enter_color">What\'s my favorite color?</string>
+    <string name="right_color">That\'s my favorite color!</string>
+    <string name="wrong_color">That\'s a nice color, but it\'s not my favorite!</string>
+</resources>

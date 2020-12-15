@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<TextView
+    android:id="@+id/question"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/q"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintBottom_toTopOf="@id/yes"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent">
+</TextView>
+
+<Button
+    android:id="@+id/yes"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/y"
+    android:onClick="yes"
+    app:layout_constraintTop_toBottomOf="@id/question"
+    app:layout_constraintBottom_toTopOf="@id/face"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toLeftOf="@id/no">
+</Button>
+
+<Button
+    android:id="@+id/no"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/n"
+    android:onClick="no"
+    app:layout_constraintTop_toBottomOf="@id/question"
+    app:layout_constraintBottom_toTopOf="@id/face"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintLeft_toRightOf="@id/yes">
+</Button>
+
+<TextView
+        android:id="@+id/face"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12pt"
+        app:layout_constraintTop_toBottomOf="@id/yes"
+        app:layout_constraintBottom_toTopOf="@id/placeholder"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+</TextView>
+
+<FrameLayout
+    android:id="@+id/placeholder"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/face"
+    app:layout_constraintBottom_toBottomOf="parent"
+    >
+
+</FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

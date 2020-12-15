@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Lifecycle of an Activity</string>
+    <string name="all">Since app was installed:</string>
+    <string name="cur">Since app was restarted:</string>
+</resources>

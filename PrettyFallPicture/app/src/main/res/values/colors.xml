@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="sky">#d6fffa</color>
+    <color name="bark">#FF7E3821</color>
+    <color name="brick">#fa5d24</color>
+    <color name="red">#cf1b27</color>
+    <color name="orange">#fc8b3a</color>
+    <color name="yellow">#ffe854</color>
+    <color name="stem">#1ca321</color>
+</resources>
