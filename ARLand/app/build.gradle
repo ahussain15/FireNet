@@ -1,6 +1,14 @@
 apply plugin: 'com.android.application'
 apply plugin: 'com.google.ar.sceneform.plugin'
 
+sceneform.asset(
+        'sampledata/models/flower_pot.obj',
+        'default',
+        'sampledata/models/flower_pot.sfa',
+        'src/main/res/raw/flower_pot'
+)
+
+
 android {
     compileSdkVersion 30
     buildToolsVersion "30.0.2"
