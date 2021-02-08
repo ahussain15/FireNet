@@ -14,4 +14,12 @@
         android:layout_height="match_parent">
     </fragment>
 
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+    </Spinner>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
